@@ -74,10 +74,6 @@ Product: SecureRetail Solutions
     - [2.1.1. Establecer el contexto interno](#211-establecer-el-contexto-interno)
     - [2.1.2. Establecer el contexto externo](#212-establecer-el-contexto-externo)
   - [2.2. Identificar riesgos](#22-identificar-riesgos)
-- [Conclusiones](#conclusiones)
-
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 
 ## Student Outcome
