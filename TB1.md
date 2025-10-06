@@ -105,6 +105,11 @@ Con SecureRetail Solutions, queremos elevar los estándares de seguridad digital
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+- Moises Rodolfo Donayre Peña - u202216021
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/tb1/Moisesprofile.jpeg"> | Estudiante de octavo ciclo apasionado por el desarrollo web y móvil, con sólidos conocimientos en Vue, Angular y Flutter. Me considero una persona empática, colaborativa y comprometida con el aprendizaje continuo, siempre buscando mejorar mis habilidades y aportar al crecimiento de los proyectos en los que participo. |
+| -------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 - Gustavo Esau Huanca Navarro - u202215285
 
 | <p align="center"><img width="auto" height="auto" src="assets/images/tb1/Gustavoprofile.jpeg"> | Soy Gustavo Huanca, estudiante de Ingeniería de Software. Me considero puntual, responsable y disfruto resolviendo problemas tecnológicos. Tengo conocimientos en desarrollo de software, varios lenguajes de programación, estructuras de datos y algoritmos. Además. Mi objetivo es contribuir eficazmente al éxito del equipo con mis habilidades. |
@@ -510,7 +515,7 @@ El contexto interno de 3A como empresa de tecnología para el sector retail pres
 **Inversión en Ciberseguridad:**
 
 - Promedio de la industria: 8-12% del presupuesto IT
-- 3A actualmente: <3% del presupuesto IT
+- 3A actualmente: 9% del presupuesto IT
 - Gap de inversión: $150,000 - $200,000 USD anuales
 
 #### Factores Tecnológicos
