@@ -1,3 +1,5 @@
+# SentriCore
+
 Product: SecureRetail Solutions
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
@@ -77,7 +79,6 @@ Product: SecureRetail Solutions
   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -110,12 +111,12 @@ Con SecureRetail Solutions, queremos elevar los estándares de seguridad digital
 
 - Gustavo Esau Huanca Navarro - u202215285
 
-| <p align="center"><img width="180" height="180" src="assets/images/tb1/Gustavoprofile.jpeg"> | Soy Gustavo Huanca, estudiante de Ingeniería de Software. Me considero puntual, responsable y disfruto resolviendo problemas tecnológicos. Tengo conocimientos en desarrollo de software, varios lenguajes de programación, estructuras de datos y algoritmos. Además. Mi objetivo es contribuir eficazmente al éxito del equipo con mis habilidades. |
+| <p align="center"><img width="auto" height="auto" src="assets/images/tb1/Gustavoprofile.jpeg"> | Soy Gustavo Huanca, estudiante de Ingeniería de Software. Me considero puntual, responsable y disfruto resolviendo problemas tecnológicos. Tengo conocimientos en desarrollo de software, varios lenguajes de programación, estructuras de datos y algoritmos. Además. Mi objetivo es contribuir eficazmente al éxito del equipo con mis habilidades. |
 | -------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 - Jara Benites Quique Vladimir - u202022365
 
-| <p align="center"><img width="300" src="assets/images/tb1/Vladimirprofile.png"> | Estudiante de sexto ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones. |
+| <p align="center"><img width="auto" height="auto" src="assets/images/tb1/Vladimirprofile.png"> | Estudiante de sexto ciclo de la carrera Ingenieria de Software, tengo conocimientos técnicos en Java, Js y python. Asimismo, para el desarrollo en equipo, cuento con habilidades como participación comunicativa, creatividad, resolución de problemas, adaptabilidad y toma de decisiones. |
 | :------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 - Yaku Mateo Guzmán Cabrejos - U20231B173
@@ -971,7 +972,7 @@ Bibliotecas open source o componentes de terceros utilizados en el sistema POS c
 | 4.1 | Incumplimiento Ley Datos      | MEDIA (45%)  | ALTO       | **ALTO**    | 10        |
 | 5.1 | Vulnerabilidades Dependencias | MEDIA (50%)  | ALTO       | **ALTO**    | 11        |
 
-## Bibliografia
+## Bibliografía
 
 1. **ISO/IEC 27001:2022** - Information Security Management Systems - Requirements. International Organization for Standardization.
 2. **PCI Security Standards Council** (2024). *Payment Card Industry Data Security Standard v4.0*. https://www.pcisecuritystandards.org/
