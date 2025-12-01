@@ -32,7 +32,7 @@ Product: SecureRetail Solutions
 - Yaku Mateo Guzmán Cabrejos - u20231b173
 - Diego Alonso Rosado Iporre - u201620127
 
-### Octubre, 2025
+### Diciembre, 2025
 
 ### Url del proyecto: https://github.com/SentriCore
 
@@ -46,6 +46,12 @@ Product: SecureRetail Solutions
 |   **1.4**   | 07/10/2025 | Diego Rosado        | Se redactó el *Capítulo II: Gestión de Riesgos*, incluyendo contexto interno, externo e identificación inicial de riesgos. |
 |   **1.5**   | 07/10/2025 | Yaku Guzmán         | Se integró y revisó el documento completo. Se realizaron correcciones de formato, redacción y referencias bibliográficas.  |
 |   **1.6**   | 07/10/2025 | **Equipo completo** | Se preparó la versión final del informe TB1 y se elaboró la presentación y el archivo .zip complementario para entrega.    |
+|   **2.1**   | 29/11/2025 | Diego Rosado | Se elaboró el Análisis de Riesgo (sección 2.3), definiendo la matriz de probabilidad e impacto, y la Evaluación de riesgos (sección 2.4), estableciendo la tolerancia y priorización.    |
+|   **2.2**   | 29/11/2025 | Moisés Donaire | Se desarrolló el Plan de Tratamiento (sección 2.5) detallando los controles técnicos (WAF, EDR, PAM) y las Acciones de Monitoreo (sección 2.6) con definición de KPIs.    |
+|   **2.3**   | 30/11/2025 | Gustavo Huanca | Se redactó la actualización del Student Outcome y las Conclusiones y Recomendaciones finales del proyecto, alineadas a los resultados del análisis de riesgos.    |
+|   **2.4**   | 30/11/2025 | Vladimir Jara | Revisión y expansión de la justificación de negocio en la evaluación de riesgos y apoyo en la redacción de controles normativos (PCI DSS y Ley de Datos).    |
+|   **2.5**   | 01/12/2025 | Yaku Guzmán | Integración final del documento para el hito TF1. Revisión de coherencia técnica, actualización de índice y validación de referencias bibliográficas nuevas.    |
+|   **2.6**   | 01/12/2025 | **Equipo completo** | Preparación de los entregables finales: diapositivas de sustentación, video about-the-Team y compilación de archivos anexos.    |
 
 ## Project Report Collaboration Insights
 
@@ -74,7 +80,25 @@ Product: SecureRetail Solutions
     - [2.1.1. Establecer el contexto interno](#211-establecer-el-contexto-interno)
     - [2.1.2. Establecer el contexto externo](#212-establecer-el-contexto-externo)
   - [2.2. Identificar riesgos](#22-identificar-riesgos)
+  - [2.3. Análisis de riesgo](#23-análisis-de-riesgo)
+  - [2.4. Evaluación](#24-evaluación)
+
+    - [2.4.1. Comparar los niveles de riesgos](#241-comparar-los-niveles-de-riesgos)
+    - [2.4.2. Determinar la tolerancia y riesgos](#242-determinar-la-tolerancia-y-riesgos)
+    - [2.4.3. Determinar el tratamiento de los riesgos](#243-determinar-el-tratamiento-de-los-riesgos)
+    - [2.4.4. Establecer la prioridad de los tratamientos](#244-establecer-la-prioridad-de-los-tratamientos)
+
+  - [2.5. Tratamiento](#25-tratamiento)
+  - [2.6. Acciones de monitoreo y seguimiento](#26-acciones-de-monitoreo-y-seguimiento)
+
+- [Conclusiones](#conclusiones)
+   - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+      - [Conclusiones](#conclusiones-1)
+      - [Recomendaciones](#recomendaciones)
+   - [Video About-the-Team](#video-about-the-team)
+
 - [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -85,7 +109,7 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 | **Criterio específico**                                                                                                                                                                                                                                       | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. La capacidad de aplicar el diseño de ingeniería para producir soluciones que satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos.** | **Gustavo Huanca** TB1: Estructuró la base del informe y organizó la documentación del proyecto, asegurando que el diseño del documento cumpla con estándares técnicos y académicos adecuados.<br />**Vladimir Jara** TB1: Desarrolló el perfil de la startup *SecureRetail Solutions*, aplicando principios de diseño de ingeniería orientados a la seguridad informática y las necesidades del sector retail.<br />**Moisés Donaire** TB1: Elaboró el *Solution Profile* y la propuesta de valor, aplicando criterios de sostenibilidad tecnológica, seguridad de datos y eficiencia operativa.<br />**Diego Rosado** TB1: Identificó los riesgos de ciberseguridad de acuerdo con el contexto interno y externo, aplicando metodologías de análisis de riesgo basadas en marcos internacionales como ISO 27005.<br />**Yaku Guzmán** TB1: Integró y revisó los contenidos del informe, asegurando coherencia técnica y la aplicación de principios de diseño seguro y cumplimiento normativo. | **TB1:** El equipo demostró capacidad para aplicar los principios del diseño de ingeniería en la elaboración de soluciones enfocadas en la protección de información y continuidad operativa en el sector retail. A través del análisis de contexto, definición de riesgos y propuesta de valor, se evidenció una comprensión integral de la seguridad, bienestar organizacional y factores globales que influyen en la ingeniería de software segura. |
+| **1. La capacidad de aplicar el diseño de ingeniería para producir soluciones que satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos.** | **Gustavo Huanca** TB1: Estructuró la base del informe y organizó la documentación del proyecto, asegurando que el diseño del documento cumpla con estándares técnicos y académicos adecuados.<br/> TF1: Sintetizó los hallazgos del análisis de riesgos para formular las conclusiones y recomendaciones finales, asegurando que la solución de ingeniería propuesta garantice el bienestar organizacional y la continuidad del negocio frente a amenazas críticas.<br /> **Vladimir Jara** TB1: Desarrolló el perfil de la startup *SecureRetail Solutions*, aplicando principios de diseño de ingeniería orientados a la seguridad informática y las necesidades del sector retail.<br /> TF1: Validó la evaluación de riesgos incorporando factores globales y legales (normativa PCI DSS y Ley de Protección de Datos), asegurando que el diseño de seguridad cumpla con los requisitos de protección de la privacidad pública y ética social.<br /> **Moisés Donaire** TB1: Elaboró el *Solution Profile* y la propuesta de valor, aplicando criterios de sostenibilidad tecnológica, seguridad de datos y eficiencia operativa.<br /> TF1: Diseñó el Plan de Tratamiento de Riesgos y los mecanismos de monitoreo (KPIs), aplicando ingeniería de seguridad para seleccionar controles técnicos específicos (WAF, EDR) que satisfacen las necesidades de protección sin comprometer la eficiencia económica.<br /> **Diego Rosado** TB1: Identificó los riesgos de ciberseguridad de acuerdo con el contexto interno y externo, aplicando metodologías de análisis de riesgo basadas en marcos internacionales como ISO 27005.<br /> TF1: Ejecutó el análisis cuantitativo y cualitativo de riesgos (Probabilidad vs. Impacto), aplicando metodologías estándar para priorizar amenazas que afectan la seguridad financiera y operativa, fundamentando la toma de decisiones de ingeniería.<br /> **Yaku Guzmán** TB1: Integró y revisó los contenidos del informe, asegurando coherencia técnica y la aplicación de principios de diseño seguro y cumplimiento normativo. TF1: Integró los componentes técnicos y de gestión en el informe final, verificando que la propuesta global mantenga coherencia lógica y cumpla con los estándares de calidad requeridos para una solución de ingeniería profesional. | **TB1:** El equipo demostró capacidad para aplicar los principios del diseño de ingeniería en la elaboración de soluciones enfocadas en la protección de información y continuidad operativa en el sector retail. A través del análisis de contexto, definición de riesgos y propuesta de valor, se evidenció una comprensión integral de la seguridad, bienestar organizacional y factores globales que influyen en la ingeniería de software segura. <br /><br />**TF1:** El equipo consolidó su capacidad de diseño de ingeniería al transformar el diagnóstico de riesgos en un Plan de Tratamiento concreto y viable. Se demostró la habilidad para producir soluciones que satisfacen necesidades específicas de seguridad (como la protección contra Ransomware y el cumplimiento normativo), considerando explícitamente el impacto económico de las interrupciones y el bienestar social mediante la protección de datos personales, todo ello bajo estándares globales como ISO/IEC 27001.|
 
 ## Capítulo I: Introducción
 
@@ -973,6 +997,152 @@ Bibliotecas open source o componentes de terceros utilizados en el sistema POS c
 | 4.1 | Incumplimiento Ley Datos      | MEDIA (45%)  | ALTO       | **ALTO**    | 10        |
 | 5.1 | Vulnerabilidades Dependencias | MEDIA (50%)  | ALTO       | **ALTO**    | 11        |
 
+### 2.3. Análisis de riesgo
+
+Para determinar con precisión la magnitud de los riesgos identificados en la empresa 3A, el equipo de SecureRetail Solutions ha utilizado una metodología de análisis semi-cuantitativa basada en los estándares ISO/IEC 27005 y NIST SP 800-30.
+
+Este proceso implicó valorar cada escenario de riesgo en función de dos dimensiones críticas:
+
+1. Probabilidad de Ocurrencia: Basada en la frecuencia histórica de ataques en el sector retail peruano, la facilidad de explotación de las vulnerabilidades actuales de 3A y la motivación de los atacantes (ej. cibercrimen organizado, hacktivismo).
+
+2. Impacto en el Negocio: Evaluado considerando las pérdidas financieras directas (multas, pérdida de ventas), el daño reputacional frente al Grupo AJE y la interrupción operativa.
+
+Se aplicó la siguiente matriz de calor para el cálculo del Nivel de Riesgo Inherente:
+
+| ID  | Riesgo                         | Probabilidad (1-3) | Impacto (1-4) | Nivel Calculado (PxI) | Clasificación | Justificación del Análisis |
+|-----|--------------------------------|---------------------|----------------|------------------------|----------------|-----------------------------|
+| 1.1 | Ransomware                     | Alta (3)            | Crítico (4)    | 12                     | CRÍTICO        | La ausencia de segmentación de red y backups inmutables hace que la infección sea altamente probable y la recuperación casi imposible sin pagar rescate. |
+| 4.2 | Incumplimiento PCI DSS         | Alta (3)            | Crítico (4)    | 12                     | CRÍTICO        | Procesar tarjetas sin cumplir el estándar conlleva multas que pueden quebrar la operación y la revocación de permisos de procesamiento por parte de Visa/Mastercard. |
+| 2.3 | Phishing / Ing. Social         | Alta (3)            | Crítico (4)    | 12                     | CRÍTICO        | El 85% de las brechas inician por error humano. La falta de capacitación y MFA en 3A convierte a los empleados en el eslabón más débil. |
+| 1.3 | SQL Injection                  | Media (2)           | Crítico (4)    | 8                      | CRÍTICO        | Vulnerabilidad común en código legacy. El impacto es crítico por la posible exfiltración masiva de la base de datos de clientes. |
+| 2.2 | Errores Humanos Config.        | Alta (3)            | Alto (3)       | 9                      | ALTO           | La alta rotación de personal y la falta de documentación técnica aumentan la frecuencia de errores que exponen servicios a internet indebidamente. |
+| 3.1 | Fallo Infraestructura          | Media (2)           | Crítico (4)    | 8                      | ALTO           | Un fallo físico sin un sitio de contingencia (DRP) detendría las operaciones por días, incumpliendo los SLAs con el Grupo AJE. |
+| 3.2 | Pérdida de Datos (Backups)     | Media (2)           | Crítico (4)    | 8                      | ALTO           | Los backups actuales no se prueban y residen en la misma red, lo que los hace susceptibles de ser cifrados o corrompidos. |
+| 1.2 | Ataques DDoS                   | Media (2)           | Alto (3)       | 6                      | ALTO           | Aunque paraliza la venta, no compromete la confidencialidad de los datos, por lo que su impacto es ligeramente menor al de una brecha de datos. |
+| 2.1 | Abuso Privilegios Admin        | Media (2)           | Alto (3)       | 6                      | ALTO           | La falta de monitoreo PAM permite que usuarios internos realicen cambios no autorizados sin dejar rastro. |
+| 4.1 | Incumplimiento Ley Datos       | Media (2)           | Alto (3)       | 6                      | ALTO           | Riesgo legal significativo ante la Autoridad de Protección de Datos Personales, con multas de hasta 100 UIT. |
+| 5.1 | Vuln. Dependencias             | Media (2)           | Alto (3)       | 6                      | ALTO           | El uso de librerías Open Source sin auditar expone el software POS a vulnerabilidades conocidas (CVEs). |
+
+### 2.4.	Evaluación
+
+### 2.4.1. Comparar los niveles de riesgos
+
+Al contrastar los resultados del análisis con los estándares de la industria, se evidencia una brecha de seguridad severa. Mientras que una organización madura busca mantener sus riesgos en niveles "Bajos" o "Medios", el 100% de los riesgos identificados en 3A se encuentran en las categorías ALTO o CRÍTICO. Esto indica que los controles existentes (backups básicos no probados y firewalls perimetrales obsoletos) son insuficientes frente al panorama de amenazas actual. La organización está operando en una zona de riesgo inaceptable donde la probabilidad de un incidente mayor en los próximos 12 meses es cercana a la certeza.
+
+- Riesgos Críticos (Puntaje 8-12): Representan el 36% de los riesgos identificados. Estos amenazan directamente la continuidad operativa del negocio retail y la viabilidad legal de procesar pagos.
+
+- Riesgos Altos (Puntaje 6-9): Representan el 64% restante. Involucran fallos operativos significativos y cumplimiento normativo (Ley de Protección de Datos Personales).
+
+### 2.4.2.	Determinar la tolerancia y riesgos
+
+El Apetito de Riesgo (Risk Appetite) de 3A se define como BAJO y restrictivo debido a su naturaleza como proveedor crítico del Grupo AJE.
+
+- Tolerancia Cero: Para riesgos que involucren la confidencialidad de datos de tarjetas de crédito (PCI DSS) y la integridad de la base de datos transaccional. Cualquier compromiso aquí destruye la propuesta de valor de la empresa.
+
+- Tolerancia Baja: Para la disponibilidad de los sistemas POS. Se admite un tiempo máximo de inactividad anual (Downtime) de 8.76 horas (99.9% de disponibilidad).
+
+- Riesgos Residuales Aceptables: Solo aquellos riesgos administrativos menores cuyo costo de mitigación supere el impacto potencial, siempre que no afecten la operación crítica ni el cumplimiento legal.
+
+### 2.4.3.	Determinar el tratamiento de los riesgos
+
+Considerando la evaluación anterior, se ha definido la estrategia de tratamiento para cada categoría:
+
+1. Mitigar (Reducir): Será la estrategia principal para los 11 riesgos identificados. Implica la inversión en tecnologías de defensa (WAF, EDR, SIEM) y mejora de procesos.
+
+2. Transferir (Compartir): Se aplicará complementariamente para riesgos de desastre físico (3.1) mediante seguros y cláusulas de responsabilidad compartida con proveedores de nube futura.
+
+3. Evitar: Se evitará el riesgo de incumplimiento PCI DSS mediante la tercerización del almacenamiento de tarjetas (tokenización), eliminando así la necesidad de almacenar PANs (números de tarjeta) en la infraestructura de 3A.
+
+### 2.4.4.	Establecer la prioridad de los tratamientos
+
+La priorización se ha estructurado en fases para optimizar el presupuesto y reducir la exposición lo más rápido posible:
+
+- Fase 1 (Inmediata - Mes 1): Atender riesgos de Nivel 12 (Críticos). Enfoque en Ransomware, Phishing y PCI DSS. "Detener el sangrado".
+
+- Fase 2 (Corto Plazo - Mes 2-3): Atender riesgos de Nivel 8-9. Enfoque en SQL Injection, Backups y Errores de Configuración.
+
+- Fase 3 (Mediano Plazo - Mes 4-6): Atender riesgos de Nivel 6. Enfoque en DDoS, PAM y cumplimiento de Ley de Datos Personales.
+
+### 2.5.	Tratamiento
+
+El Plan de Tratamiento de Riesgos (RTP) diseñado por SecureRetail Solutions implementa una arquitectura de "Defensa en Profundidad", utilizando las tecnologías de vanguardia identificadas en nuestro perfil de solución.
+
+| ID  | Riesgo              | Estrategia        | Solución Detallada y Controles (Técnicos/Administrativos) | Reducción Esperada |
+|-----|----------------------|-------------------|-------------------------------------------------------------|----------------------|
+| 1.1 | Ransomware           | Mitigar           | 1. **Despliegue de EDR:** Agentes EDR en servidores y POS para bloquear cifrado malicioso.<br>2. **Segmentación de Red (VLANs):** Separación estricta entre red corporativa, POS y gestión para evitar movimiento lateral.<br>3. **Backups Inmutables:** Copias WORM protegidas contra cifrado por ransomware. | Crítico ➔ **Bajo** (Probabilidad baja por bloqueo temprano) |
+| 4.2 | PCI DSS              | Mitigar / Evitar  | 1. **Tokenización:** Sustitución de datos sensibles por tokens para reducir alcance PCI.<br>2. **Cifrado TLS 1.3:** Protección de transacciones en tránsito.<br>3. **Auditoría Anual:** Evaluación por QSA para asegurar cumplimiento. | Crítico ➔ **Bajo** (Cumplimiento total normativo) |
+| 1.3 | SQL Injection        | Mitigar           | 1. **WAF:** Reglas contra patrones de inyección SQL.<br>2. **SAST/DAST:** Escaneo estático y dinámico en el pipeline CI/CD.<br>3. **Consultas Parametrizadas:** Refactor del POS para eliminar concatenación insegura. | Crítico ➔ **Bajo** (Eliminación de la vulnerabilidad raíz) |
+| 2.3 | Phishing             | Mitigar           | 1. **MFA:** Requerido para correo, VPN y sistemas críticos.<br>2. **Concientización:** Simulaciones mensuales de phishing.<br>3. **Gateway de Correo Seguro:** Filtros avanzados antiphishing. | Crítico ➔ **Medio** (Mitigación del factor humano) |
+| 2.1 | Abuso Privilegios    | Mitigar           | 1. **PAM (CyberArk):** Gestión, rotación y auditoría de credenciales admin.<br>2. **Mínimo Privilegio:** Revisión y reducción de permisos. | Alto ➔ **Bajo** (Control total de accesos VIP) |
+| 3.2 | Pérdida de Datos     | Mitigar           | 1. **Estrategia 3-2-1:** Copias distribuidas en distintos medios y off-site.<br>2. **Cifrado de Backups:** Protección contra acceso no autorizado.<br>3. **Pruebas de Restauración:** Validación trimestral automatizada. | Alto ➔ **Bajo** (Garantía de disponibilidad) |
+| 1.2 | DDoS                 | Mitigar           | 1. **Protección Cloud:** Mitigación volumétrica (Cloudflare).<br>2. **Balanceo de Carga:** Mejor resiliencia ante picos. | Alto ➔ **Medio** (Resiliencia operativa) |
+
+### 2.6.	Acciones de monitoreo y seguimiento
+
+La seguridad no es un estado final, sino un proceso continuo. Para asegurar la sostenibilidad de las mejoras, SecureRetail Solutions establece el siguiente esquema de monitoreo utilizando un SIEM (Security Information and Event Management) como núcleo de visibilidad:
+
+1. Monitoreo en Tiempo Real (SOC 24/7):
+
+   - Implementación de Splunk o IBM QRadar para recolectar logs de firewalls, servidores, antivirus y bases de datos.
+
+   - Definición de reglas de correlación para alertar sobre anomalías (ej. "5 intentos fallidos de login seguidos de un éxito en horario no laboral").
+
+   - Establecimiento de un equipo de respuesta a incidentes (CSIRT) con protocolos definidos (Playbooks).
+
+2. Indicadores de Desempeño (KPIs) y Riesgo (KRIs):
+
+   - KRI 1: Número de vulnerabilidades críticas abiertas por más de 15 días (Meta: 0).
+
+   - KRI 2: Intentos de acceso no autorizado detectados y bloqueados por el WAF.
+
+   - KPI 1 (Eficacia): Tiempo Promedio de Detección (MTTD) y Tiempo Promedio de Respuesta (MTTR).
+
+   - KPI 2 (Concientización): Porcentaje de empleados que cayeron en las simulaciones de phishing (Meta: < 5%).
+
+3. Ciclo de Mejora Continua (PDCA):
+
+   - Revisión Mensual: Comité de Seguridad para revisar métricas y estado de parches.
+
+   - Auditorías Semestrales: Pruebas de penetración (Ethical Hacking) externas para validar la fortaleza de los controles implementados.
+
+   - Revisión Anual: Actualización de la Matriz de Riesgos y reevaluación del contexto externo e interno.
+
+## Conclusiones
+
+### Conclusiones y recomendaciones
+
+#### Conclusiones
+
+1. Diagnóstico de Alta Criticidad: El análisis exhaustivo de la infraestructura de 3A ha revelado una postura de seguridad extremadamente frágil. La identificación de riesgos críticos como Ransomware, Inyección SQL y falta de cumplimiento PCI DSS confirma que la organización ha priorizado la funcionalidad operativa sobre la seguridad, acumulando una "deuda técnica de seguridad" que pone en peligro su continuidad y su relación contractual con el Grupo AJE.
+
+2. Eficacia del Modelo de Defensa en Profundidad: La propuesta técnica desarrollada por el equipo, que integra soluciones como EDR, WAF, PAM y Tokenización, demuestra teóricamente la capacidad de reducir el riesgo residual de niveles "Críticos" a niveles "Bajos" o "Gestionables". La implementación de estas capas de seguridad no solo protege los activos tecnológicos, sino que habilita el cumplimiento de normativas legales peruanas y estándares internacionales.
+
+3. Valor Estratégico de la Seguridad: Más allá de la protección técnica, este proyecto evidencia que la seguridad de la información es un habilitador de negocio para 3A. Al asegurar la disponibilidad de los puntos de venta y la integridad de los datos financieros, 3A fortalece su reputación como partner tecnológico confiable, diferenciándose de competidores que carecen de certificaciones y controles robustos.
+
+#### Recomendaciones
+
+1. Ejecución Inmediata de "Quick Wins": Se recomienda encarecidamente a la Gerencia de 3A aprobar la implementación inmediata de la Autenticación Multifactor (MFA) y la política de Backups Inmutables. Estas dos acciones requieren una inversión moderada pero ofrecen el retorno de inversión (ROI) más alto en términos de reducción de riesgo inmediato frente a las amenazas más destructivas.
+
+2. Institucionalización de la Cultura de Seguridad: La tecnología por sí sola fallará si el factor humano no se aborda. Recomendamos establecer un programa permanente de capacitación y concientización ("Security Awareness"), integrando la seguridad como un valor central en la evaluación de desempeño de todos los colaboradores, desde cajeros hasta desarrolladores.
+
+3. Hoja de Ruta hacia la Certificación: A mediano plazo (12-18 meses), 3A debe apuntar a obtener la certificación oficial ISO/IEC 27001. Esto no solo validará formalmente su sistema de gestión, sino que servirá como una ventaja competitiva decisiva en futuras licitaciones y renovaciones de contrato con grandes corporaciones como el Grupo AJE.
+
+### Video About-the-Team
+
+Cada participante del equipo debe colaborar a fin de que se redacte como grupo los sustentos y  evidencias de las actividades realizadas en el trabajo final han ayudado a desarrollar cómo las dimensiones del student outcome. Por ello en esta sección debe quedar descrito por escrito, la relación entre el outcome, sus dimensiones y el trabajo que han realizado. Esto se complementa con lo reflejado en los testimonios expuestos que forman parte del video About The Team.
+
+Cantidad de videos: 1 Nomenclatura: upc-pre- 202302-si400-<sección>-<startup>-about-theteam-
+</tbn/tp1/tf1> Formato: .mp4
+
+Duración: En función al contenido (considerar 5 minutos para la sección de retrospectiva del grupo y 1 minuto por cada testimonio de miembro del equipo).	
+
+Video que resume el proceso de trabajo realizado, incluyendo escenas de sesiones de trabajo real del equipo, complementando con narración (voz en off) del proceso, junto con el testimonio de cada participante describiendo actividades realizadas y logro de outcomes desarrollo de competencias
+alcanzados.	Subir el video en YouTube con enlace privado.
+
+Incluir redacción de introducción a la
+sección, resumiendo el proceso de trabajo y los logros alcanzados por los miembros del
+equipo.
+
 ## Bibliografía
 
 1. **ISO/IEC 27001:2022** - Information Security Management Systems - Requirements. International Organization for Standardization.
@@ -985,3 +1155,5 @@ Bibliotecas open source o componentes de terceros utilizados en el sistema POS c
 8. **Zapata León, Christian** (2025). *Apuntes del curso Seguridad Informática I*. Universidad Peruana de Ciencias Aplicadas.
 9. **CyberArk** (2024). *Privileged Access Management Best Practices*. CyberArk Software Ltd.
 10. **Gartner** (2024). *Market Guide for Security Information and Event Management*. Gartner, Inc.
+
+## Anexos
